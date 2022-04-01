@@ -1,0 +1,46 @@
+/*.grid{
+    display: grid;
+    grid-template-columns: 20%, 60%, 20%;
+
+}
+
+.container{
+	display: grid;
+    gap: 1rem;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 33rem), 1fr));
+    grid-auto-flow: dense;
+}
+
+.grid div{
+    background: #ecf0f1;
+    padding: 1em;
+}
+
+.grid div:hover{
+    border: 1px solid #f1c40f;
+}*/
+
+.encabezado{
+	margin: 20px;
+	color: blueviolet;
+}
+
+p{
+	color: red;
+}
+
+#parrafo{
+	font-size: 15px;
+	font-weight: bold;
+	color: greenyellow;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+nav{
+	display: inline;
+}
